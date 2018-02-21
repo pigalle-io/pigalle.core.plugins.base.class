@@ -1,0 +1,18 @@
+```javascript
+
+const {PigallePluginBaseClass} = require('@pigalle/core.plugins.base.class')
+
+class CustomPlugin extends PigallePluginBaseClass {
+
+  constructor (...args) {
+    super(...args)
+  }
+
+  run() {
+    return Promise.revolve(true)
+  }
+
+}
+
+
+```
