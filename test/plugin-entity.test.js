@@ -37,4 +37,8 @@ describe('Create a instance of {PluginEntity} using <factory> method', () => {
   it('should be an instance of {PluginEntity}', () => {
     (PluginEntity.factory()).should.be.an.instanceOf(PluginEntity)
   })
+
+  it('should have an internal property named <type> equal to "plugin"', () => {
+    (PluginEntity.factory().type()).should.be.equal('plugin')
+  })
 })
