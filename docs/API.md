@@ -85,6 +85,6 @@ The Pigalle type of the current class.
 
 ***
 
-_Documentation generated on Thu, 22 Feb 2018 15:07:19 GMT_
+_Documentation generated on Thu, 22 Feb 2018 15:13:45 GMT_
 
 **Copyright &copy; 2018 [SAS 9 Février](https://9fevrier.com/)**
