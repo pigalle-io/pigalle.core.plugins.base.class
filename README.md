@@ -1,7 +1,7 @@
-[npm-badge]: https://img.shields.io/npm/v/@pigalle/core.plugins.base.class.svg
-[npm-badge-url]: https://www.npmjs.com/package/@pigalle/core.plugins.base.class
-[npm-downloads-badge]: https://img.shields.io/npm/dt/@pigalle/core.plugins.base.class.svg
-[npm-downloads-url]: https://npmjs.org/package/@pigalle/core.plugins.base.class
+[npm-badge]: https://img.shields.io/npm/v/@pigalle/entities.plugin.svg
+[npm-badge-url]: https://www.npmjs.com/package/@pigalle/entities.plugin
+[npm-downloads-badge]: https://img.shields.io/npm/dt/@pigalle/entities.plugin.svg
+[npm-downloads-url]: https://npmjs.org/package/@pigalle/entities.plugin
 [travis-badge]: https://img.shields.io/travis/pigalle-io/pigalle.core.plugins.base.class/master.svg?label=TravisCI
 [travis-badge-url]: https://travis-ci.org/pigalle-io/pigalle.core.plugins.base.class
 [circle-badge]: https://circleci.com/gh/pigalle-io/pigalle.core.plugins.base.class/tree/master.svg?style=svg&circle-token=
@@ -12,7 +12,7 @@
 [codeclimate-badge-url]: https://codeclimate.com/github/pigalle-io/pigalle.core.plugins.base.class
 [ember-observer-badge]: http://emberobserver.com/badges/pigalle.core.plugins.base.class.svg
 [ember-observer-badge-url]: http://emberobserver.com/addons/pigalle.core.plugins.base.class
-[license-badge]: https://img.shields.io/npm/l/@pigalle/core.plugins.base.class.svg
+[license-badge]: https://img.shields.io/npm/l/@pigalle/entities.plugin.svg
 [license-badge-url]: LICENSE.md
 [dependencies-badge]: https://img.shields.io/david/pigalle-io/pigalle.core.plugins.base.class.svg
 [dependencies-badge-url]: https://david-dm.org/pigalle-io/pigalle.core.plugins.base.class
@@ -74,9 +74,9 @@ A class base for plugins usable by the Pigalle framework.
 
 ```javascript
 
-const {PigallePluginBaseClass} = require('@pigalle/core.plugins.base.class')
+const {PluginEntity} = require('@pigalle/entities.plugins')
 
-class CustomPlugin extends PigallePluginBaseClass {
+class CustomPlugin extends PluginEntity {
 
   constructor (...args) {
     super(...args)
@@ -88,12 +88,11 @@ class CustomPlugin extends PigallePluginBaseClass {
 
 }
 
-
 ```
 
 ## <a name="installation"> Installation
 
-    npm install @pigalle/core.plugins.base.class
+    npm install @pigalle/entities.plugin
 
 ## <a name="api-reference"> API Reference
 
@@ -148,7 +147,9 @@ Please refer to project's style guidelines and guidelines for submitting patches
 
 ## <a name="credits"> Credits
 
-* [pigalle.core.base.class](https://github.com/pigalle-io/pigalle.core.base.class) by [pigalle.io](https://github.com/pigalle-io/)
+### Thanks to the developers of the very useful dependencies...
+
+* [@pigalle/entities.base](https://github.com/pigalle-io/pigalle.entities.base) by [pigalle.io](https://github.com/pigalle-io/)
 
 ## <a name="history"> History
 

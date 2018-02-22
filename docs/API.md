@@ -14,9 +14,9 @@ A base class to create plugin usable by the Pigalle framework. All plugins devel
 
 **Example**  
 ```js
-const {PigallePluginBaseClass} = require('@pigalle/core.plugins.base.class')
+const {PluginEntity} = require('@pigalle/entities.plugin')
 
-class CustomPlugin extends PigallePluginBaseClass {
+class CustomPlugin extends PluginEntity {
 
   constructor (...args) {
     super(...args)
@@ -28,13 +28,35 @@ class CustomPlugin extends PigallePluginBaseClass {
 
 }
 ```
-<a name="module_pigalle-plugin-base-class..PigallePluginBaseClass"></a>
 
-#### pigalle-plugin-base-class~PigallePluginBaseClass
+* [pigalle-plugin-base-class](#module_pigalle-plugin-base-class)
+    * [~PluginEntity](#module_pigalle-plugin-base-class..PluginEntity)
+        * [new PluginEntity(...args)](#new_module_pigalle-plugin-base-class..PluginEntity_new)
+    * [~PIGALLE_TYPE](#module_pigalle-plugin-base-class..PIGALLE_TYPE) : <code>string</code>
+
+<a name="module_pigalle-plugin-base-class..PluginEntity"></a>
+
+#### pigalle-plugin-base-class~PluginEntity
 A base class to create plugin usable by the Pigalle framework.
 
 **Kind**: inner class of [<code>pigalle-plugin-base-class</code>](#module_pigalle-plugin-base-class)  
 **Access**: public  
+<a name="new_module_pigalle-plugin-base-class..PluginEntity_new"></a>
+
+##### new PluginEntity(...args)
+Create a new instance of {PluginEntity}.
+
+
+| Param | Description |
+| --- | --- |
+| ...args | The arguments. |
+
+<a name="module_pigalle-plugin-base-class..PIGALLE_TYPE"></a>
+
+#### pigalle-plugin-base-class~PIGALLE_TYPE : <code>string</code>
+The Pigalle type of the current class.
+
+**Kind**: inner constant of [<code>pigalle-plugin-base-class</code>](#module_pigalle-plugin-base-class)  
 ## <a name="license"> License
 
 >
@@ -63,6 +85,6 @@ A base class to create plugin usable by the Pigalle framework.
 
 ***
 
-_Documentation generated on Wed, 21 Feb 2018 14:49:05 GMT_
+_Documentation generated on Thu, 22 Feb 2018 15:07:19 GMT_
 
 **Copyright &copy; 2018 [SAS 9 Février](https://9fevrier.com/)**

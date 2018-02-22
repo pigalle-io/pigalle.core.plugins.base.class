@@ -1,8 +1,8 @@
 ```javascript
 
-const {PigallePluginBaseClass} = require('@pigalle/core.plugins.base.class')
+const {PluginEntity} = require('@pigalle/entities.plugins')
 
-class CustomPlugin extends PigallePluginBaseClass {
+class CustomPlugin extends PluginEntity {
 
   constructor (...args) {
     super(...args)
@@ -13,6 +13,5 @@ class CustomPlugin extends PigallePluginBaseClass {
   }
 
 }
-
 
 ```

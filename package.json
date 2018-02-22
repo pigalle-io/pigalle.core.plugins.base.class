@@ -1,8 +1,8 @@
 {
-  "name": "@pigalle/core.plugins.base.class",
+  "name": "@pigalle/entities.plugin",
   "version": "0.1.0",
   "description": "A class base for plugins usable by the Pigalle framework.",
-  "main": "lib/pigalle-plugin-base-class.js",
+  "main": "lib/plugin-entity.js",
   "scripts": {
     "test": "nyc mocha",
     "lint": "node ./node_modules/standard/bin/cmd.js --fix",
@@ -58,7 +58,6 @@
     "github-uri-https-parser": "^0.1.1-alpha1"
   },
   "dependencies": {
-    "@pigalle/core.base.class": "^0.3.1",
-    "lodash": "^4.17.5"
+    "@pigalle/entities.base": "^0.1.0"
   }
 }
