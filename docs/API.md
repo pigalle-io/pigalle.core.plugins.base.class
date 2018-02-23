@@ -139,6 +139,6 @@ Used key to specify if the plugin is or not "bootable".
 
 ***
 
-_Documentation generated on Fri, 23 Feb 2018 19:49:43 GMT_
+_Documentation generated on Fri, 23 Feb 2018 20:43:39 GMT_
 
 **Copyright &copy; 2018 [SAS 9 Février](https://9fevrier.com/)**
