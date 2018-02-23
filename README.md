@@ -150,6 +150,7 @@ Please refer to project's style guidelines and guidelines for submitting patches
 ### Thanks to the developers of the very useful dependencies...
 
 * [@pigalle/entities.base](https://github.com/pigalle-io/pigalle.entities.base) by [pigalle.io](https://github.com/pigalle-io/)
+* [@9fv.io/notimplemented-error](https://github.com/9fv/node-notimplemented-error) by [9fv.io](https://github.com/9fv)
 
 ## <a name="history"> History
 
