@@ -1,6 +1,6 @@
 {
   "name": "@pigalle/entities.plugin",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A class base for plugins usable by the Pigalle framework.",
   "main": "lib/plugin-entity.js",
   "scripts": {
@@ -58,6 +58,7 @@
     "github-uri-https-parser": "^0.1.1-alpha1"
   },
   "dependencies": {
+    "@9fv.io/notimplemented-error": "^1.0.0",
     "@pigalle/entities.base": "^0.1.0"
   }
 }

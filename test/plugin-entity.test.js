@@ -11,6 +11,7 @@
 
 require('should')
 
+const {NotImplementedError} = require('@9fv.io/notimplemented-error')
 const {PluginEntity} = require('../lib/plugin-entity')
 
 describe('Class {PluginEntity}', () => {
@@ -40,5 +41,21 @@ describe('Create a instance of {PluginEntity} using <factory> method', () => {
 
   it('should have an internal property named <type> equal to "plugin"', () => {
     (PluginEntity.factory().type()).should.be.equal('plugin')
+  })
+})
+
+describe('Define {bootable}', () => {
+  it('as true should return true', () => {
+    (PluginEntity.factory().setBootable(true).isBootable()).should.be.true()
+  })
+
+  it('as false should return false', () => {
+    (PluginEntity.factory().setBootable(false).isBootable()).should.be.false()
+  })
+})
+
+describe('Call {.boot()} method ', () => {
+  it('should throw a {NotImplementedError}', () => {
+    (() => PluginEntity.factory().boot()).should.throw(NotImplementedError)
   })
 })
