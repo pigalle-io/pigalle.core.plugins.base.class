@@ -35,8 +35,6 @@ class CustomPlugin extends PluginEntity {
         * [.setBootable(bootable)](#module_pigalle-plugin-base-class..PluginEntity+setBootable) ⇒ <code>PluginEntity</code> \| <code>\*</code>
         * [.isBootable()](#module_pigalle-plugin-base-class..PluginEntity+isBootable) ⇒ <code>boolean</code>
         * [.boot()](#module_pigalle-plugin-base-class..PluginEntity+boot)
-    * [~PIGALLE_TYPE](#module_pigalle-plugin-base-class..PIGALLE_TYPE) : <code>string</code>
-    * [~BOOTABLE_KEY](#module_pigalle-plugin-base-class..BOOTABLE_KEY) : <code>string</code>
 
 <a name="module_pigalle-plugin-base-class..PluginEntity"></a>
 
@@ -99,18 +97,6 @@ Abstract unimplemented method to start the plugin if is "bootable". Usable by de
 - <code>NotImplementedError</code> 
 
 **Access**: public  
-<a name="module_pigalle-plugin-base-class..PIGALLE_TYPE"></a>
-
-#### pigalle-plugin-base-class~PIGALLE_TYPE : <code>string</code>
-The Pigalle type of the current class.
-
-**Kind**: inner constant of [<code>pigalle-plugin-base-class</code>](#module_pigalle-plugin-base-class)  
-<a name="module_pigalle-plugin-base-class..BOOTABLE_KEY"></a>
-
-#### pigalle-plugin-base-class~BOOTABLE_KEY : <code>string</code>
-Used key to specify if the plugin is or not "bootable".
-
-**Kind**: inner constant of [<code>pigalle-plugin-base-class</code>](#module_pigalle-plugin-base-class)  
 ## <a name="license"> License
 
 >
@@ -139,6 +125,6 @@ Used key to specify if the plugin is or not "bootable".
 
 ***
 
-_Documentation generated on Mon, 26 Feb 2018 10:15:03 GMT_
+_Documentation generated on Wed, 28 Feb 2018 17:39:30 GMT_
 
 **Copyright &copy; 2018 [SAS 9 Février](https://9fevrier.com/)**
