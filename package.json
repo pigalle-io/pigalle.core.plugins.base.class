@@ -1,6 +1,6 @@
 {
   "name": "@pigalle/entities.plugin",
-  "version": "0.2.5",
+  "version": "0.6.2",
   "description": "A class base for plugins usable by the Pigalle framework.",
   "main": "lib/plugin-entity.js",
   "scripts": {
